@@ -7,7 +7,7 @@ import Image from 'next/image';
 
 export default function Home() {
 	return (
-		<div>
+		<div className="flex flex-col items-center justify-center h-screen">
 			<Head>
 				<title>JAK Google Clone 2</title>
 				<link rel="icon" href="/favicon.ico" />
@@ -28,7 +28,7 @@ export default function Home() {
 					/>
 				</div>
 			</header>
-			<form className="flex flex-col items-center mt-44 flex-grow">
+			<form className="flex flex-col items-center mt-44 flex-grow w-4/5">
 				<Image 
 					src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
 					height={100}
