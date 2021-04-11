@@ -32,6 +32,7 @@ function SearchHeader() {
 						type="text" 
 						className="flex-grow w-full focus:outline-none" 
 						placeholder="Search Google"
+						defaultValue={router.query.term}
 					/>
 					<XIcon 
 						className="sm:mr-3 cursor-pointer h-7 text-gray-500 transition duration-100 transform hover:scale-125"
